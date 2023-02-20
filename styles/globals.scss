@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import 'navbar';
+
+$clrblack :#050505;
+$clrwhite :#E6E6E6;
+$clrprim : #EE7C4B;
+
+
+  
+  
 *{
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #050505;
-  color: #E6E6E6;
+  background-color: $clrblack;
+  color:$clrwhite;
 
 }
 h1{
@@ -21,7 +29,19 @@ h3{
   font-size: 16px;  
   text-transform: uppercase;
   letter-spacing: 2px;
-
+}
+button{
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  padding: 10px 26px;
+  border:  1px solid;
+  border-radius: 8px;
+}
+.btn-prime{
+  color: $clrprim;
+  border: $clrprim 1px solid;
+  
 }
 .hero-cont{
   justify-content: center;
@@ -48,4 +68,10 @@ h3{
   flex-direction: column;
   align-items: center;
   /* background-color: aqua;   */
+}
+.hero-cont{
+  margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
