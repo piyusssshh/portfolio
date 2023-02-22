@@ -1,9 +1,11 @@
 import Navbar from "../components/Navbar";
+import Head from "next/head";
 
 const index = () => {
   return (
     <>
     <div className="main">
+      <Head/>
      <Navbar/>
      <div className="hero-cont">
      <h1 className="heading-one">HELLO I'M PIYUSH</h1>
