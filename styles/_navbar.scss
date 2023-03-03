@@ -1,3 +1,4 @@
+@import "var";
 a{
   text-decoration: none;
 }
@@ -15,12 +16,14 @@ nav{
     width: 500px;
     a{
       margin-left:4rem ;
+      padding: 10px 0;
+      
+     
+    }
+    a:hover{
+      border-bottom: 2px solid $clrprime;
     }
   }
+ 
 }
   
-a:hover{
-  background-color: rgb(51, 49, 49);
-  color: white;
-}
-
